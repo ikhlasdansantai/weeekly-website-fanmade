@@ -1,7 +1,7 @@
 
 # Weeekly Website Fanmade ☕
 #### You can visit The Website here
-(under construction)
+https://ikhlasdansantai.github.io/weeekly-website-fanmade/
 
 ## 🚪 About / project background
 A side project during Ramadan, because I'm a fan of this idol group and they don't have an official website yet. So, I decided to create one as a learning and practice opportunity, although it's quite challenging since I'm still learning how to use ReactJS. That's all for now, sorry for the lengthy message :V
