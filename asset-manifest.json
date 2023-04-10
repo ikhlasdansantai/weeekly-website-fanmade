@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a79de540.css",
+    "main.js": "/static/js/main.99169f33.js",
+    "static/media/Krossevent.png": "/static/media/Krossevent.0cdceabde5c3eff7d532.png",
+    "static/media/weeekly-photoshoot.png": "/static/media/weeekly-photoshoot.3a104206ae98f4fedf28.png",
+    "static/media/Soeun.png": "/static/media/Soeun.586ff921681943550545.png",
+    "static/media/Monday.png": "/static/media/Monday.00e1fcbc7d12642ecc30.png",
+    "static/media/Soojin.png": "/static/media/Soojin.97dbfe2bace859358c50.png",
+    "static/media/Jihan.png": "/static/media/Jihan.853742282f87f44afc64.png",
+    "static/media/Zoa.png": "/static/media/Zoa.5116f6c249385fc1edce.png",
+    "static/media/Jaehee.png": "/static/media/Jaehee.31dbfea2e205d1a5f9a3.png",
+    "static/media/pit-a-pat.jpg": "/static/media/pit-a-pat.7074f96cddb3fe548ce2.jpg",
+    "static/media/contour.jpg": "/static/media/contour.468cfec45792a1245011.jpg",
+    "static/media/weclear.jpg": "/static/media/weclear.197444150ccdf2738891.jpg",
+    "static/media/KFLEX.jpg": "/static/media/KFLEX.3f8764bb9852bf17eb18.jpg",
+    "static/media/unknownShow.jpg": "/static/media/unknownShow.b83d1365fa63610deb58.jpg",
+    "static/media/unknown.jpg": "/static/media/unknown.41e9283f057e11dd9164.jpg",
+    "static/media/headerBg.jpg": "/static/media/headerBg.9bda1a83a5c9d1cade12.jpg",
+    "static/media/we-play.jpg": "/static/media/we-play.9a992661417a64108402.jpg",
+    "static/media/Weeekly_wecan_2020.jpg": "/static/media/Weeekly_wecan_2020.8dce212c2179b6592bb0.jpg",
+    "static/media/Weeekly_-_Play_Game_-_Awake.png": "/static/media/Weeekly_-_Play_Game_-_Awake.baeae7d2fa911f8bd977.png",
+    "static/media/Weeekly_logo.png": "/static/media/Weeekly_logo.b590d4051846f8f8ea15.png",
+    "index.html": "/index.html",
+    "main.a79de540.css.map": "/static/css/main.a79de540.css.map",
+    "main.99169f33.js.map": "/static/js/main.99169f33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a79de540.css",
+    "static/js/main.99169f33.js"
+  ]
+}
