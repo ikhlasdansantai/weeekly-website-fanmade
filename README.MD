@@ -24,7 +24,7 @@ We strive to provide quality and accurate content, but we do not guarantee the a
 1. Fully Responsive
 - 100% Mobile Friendly
 2. Voting System
-- You can also select your favorite idol by clicking the Vote button located in the ### Vote Your Bias section. Each vote/click will add 1 vote to the selected idol.
+- You can also select your favorite idol by clicking the Vote button located in the #Vote Your Bias section. Each vote/click will add 1 vote to the selected idol.
 3. Dynamic Content 
 - You can click on the picture of each idol/member, which will display a brief profile about the selected idol/member.
 
