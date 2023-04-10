@@ -1,0 +1,53 @@
+{
+  "name": "weeekly-website",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http:/ikhlasdansantai.github.io/weeekly-website-fanmade",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "ionicons": "^7.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-id-swiper": "^4.0.0",
+    "react-ionicons": "^4.2.0",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "sweetalert2": "^11.7.3",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^8.4.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
