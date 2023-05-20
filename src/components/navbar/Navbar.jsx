@@ -1,7 +1,7 @@
 // import Logo from "./assets/Weeekly_logo.png";
 import "./navbar.css";
 import Logo from "../../assets/Weeekly_logo.png";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const Navbar = () => {
   const ulMenus = ["Home", "About", "Projects", "Events", "Store"];
@@ -18,15 +18,44 @@ const Navbar = () => {
     }
   };
 
+  // *Fitur Navbar on scroll
+  const [scrollClass, setScrollClass] = useState({
+    bgClass: window.innerWidth < 640 ? "bg-white" : "",
+    textClass: window.innerWidth < 640 ? "text-black" : "",
+  });
+
+  const handleScroll = () => {
+    const isScrolled = window.scrollY > 0;
+
+    if (window.innerWidth < 640) {
+      setScrollClass({
+        bgClass: "bg-white",
+        textClass: "text-black",
+      });
+    } else {
+      setScrollClass({
+        bgClass: isScrolled ? "bg-white" : "",
+        textClass: isScrolled ? "text-black" : "text-white",
+      });
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="py-[1.5rem] px-[1.5rem] fixed bottom-0 left-0 right-0  w-full bg-black mx-auto md:bg-transparent md:top-0 z-[9999999999999]">
-      <section className="nav-wrappers flex justify-between items-center mx-auto lg:w-[90rem] relative z-50">
+    <nav className={`py-[1.5rem] px-[1.5rem] fixed max-[640px]:bottom-0 left-0 right-0  w-full mx-auto md:top-0 z-[9999999999999] ${scrollClass.bgClass}`}>
+      <section className="nav-wrappers flex justify-between items-center mx-auto min-[1700px]:w-[90rem] relative z-50">
         <img src={Logo} alt="weeekly Logo" className="block w-[7rem]" />
 
         <ul className="desktop hidden justify-between items-center ml-auto md:flex w-[22rem] ">
           {ulMenus.map((ulMenu, index) => (
             <li key={index}>
-              <a href={`#${ulMenu}`} className="font-semibold">
+              <a href={`#${ulMenu}`} className={`font-semibold ${scrollClass.textClass}`}>
                 {ulMenu}
               </a>
             </li>

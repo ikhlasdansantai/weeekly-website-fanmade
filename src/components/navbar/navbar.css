@@ -45,3 +45,19 @@
   transform: scale(0);
   opacity: 0;
 }
+
+#logo {
+  z-index: 1;
+}
+
+@media (max-width: 640px) {
+  .desktop {
+    display: none !important;
+  }
+}
+
+@media (min-width: 640px) {
+  :is(.mobile, #nav-mobile) {
+    display: none;
+  }
+}
