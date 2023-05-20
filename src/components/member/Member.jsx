@@ -1,10 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 import "swiper/css";
-// import soojin from "../../assets/soojin.png";
-// import jaehee from "../../assets/jaehee.png";
-// import zoa from "../../assets/zoa.png";
-// import Header from "../../containers/header/Header";
 
 const Member = ({ MemberDatas, onMemberClick }) => {
   const handleClick = (member) => {
@@ -13,12 +9,11 @@ const Member = ({ MemberDatas, onMemberClick }) => {
 
   return (
     <section id="member" className="bg-primary p-standart py-20 mt-[-3px]">
-      <h2 className="text-3xl text-center text- mb-8 text-[#ffe]">PROFILE</h2>
+      <h2 className="text-3xl text-center text- mb-8 text-[#ffe]">MEMBER'S PROFILE</h2>
       <Swiper
         speed={1000}
         spaceBetween={30}
         grabCursor={true}
-        // centeredSlides={true}
         slidesPerView={0}
         autoplay={{
           delay: 2500,

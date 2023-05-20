@@ -1,5 +1,3 @@
-// import Main from "../main/main";
-// import MemberProfile from "../../components/member-profile/member-profile";
 import "./header.css";
 import { useState } from "react";
 import { animateScroll as scroll } from "react-scroll";
@@ -10,9 +8,8 @@ import jaehee from "../../assets/members/Jaehee.png";
 import soeun from "../../assets/members/Soeun.png";
 import Jihan from "../../assets/members/Jihan.png";
 import zoa from "../../assets/members/Zoa.png";
-
 import Member from "../../components/member/Member";
-// import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 
 const Header = () => {
   const [selectedMember, setSelectedMember] = useState({
@@ -69,9 +66,10 @@ const Header = () => {
 
   return (
     <header id="header">
+      <Navbar />
       <div id="temp" className="container flex max-w-full mx-auto overflow-hidden">
         <div className="header-bg h-full mx-auto -z-30">
-          <div className="header-contents container flex flex-col justify-center items-center min-[390px]:pt-[3rem] sm:flex-row sm:py-32 lg:w-[90rem] min-[1700px]:items-start min-[1700px]:py-[5rem]">
+          <div className="header-contents container flex flex-col justify-center items-center min-[390px]:pt-[0rem] sm:flex-row sm:py-32 lg:w-[90rem] min-[1700px]:items-start min-[1700px]:py-[5rem]">
             <div className="container p-standart header-content-titles md:w-[70%] min-[1700px]:mt-[10rem]">
               <small className="tracking-wider text-white font-semibold">Weeekly's {selectedMember.username}</small>
               <h1 className="text-5xl md:text-[55px] lg:text-[96px] md:leading-[4rem] lg:leading-[7rem] text-white">{selectedMember.name}</h1>
