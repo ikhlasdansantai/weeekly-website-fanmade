@@ -30,7 +30,7 @@ const Discography = () => {
   ];
   return (
     <div id="Discography" className="container py-20 px-[1.5rem]">
-      <div className="container lg:w-[90rem] mx-auto mt-2">
+      <div className="container min-[1700px]:w-[90rem] mx-auto mt-2">
         <Title title={"DISCOGRAPHY"} />
         <div className="w-full cards mt-10 lg:mt-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:justify-between justify-stretch">
           <AlbumCard albumDatas={albums} />
@@ -41,22 +41,3 @@ const Discography = () => {
 };
 
 export default Discography;
-
-/* <div className="card cursor-pointer">
-<figure>
-  <img src={wePlayAlbum} alt="" className="block" />
-</figure>
-<div className="card-footer text-white mt-2">
-  <h2 className="text-xl font-bold tracking-tight">We Play</h2>
-  <p className="text-[#999] mt-2">01 JAN 2019</p>
-</div>
-</div>
-<div className="card cursor-pointer">
-<figure>
-  <img src={playGameAlbum} alt="" className="block" />
-</figure>
-<div className="card-footer text-white mt-2">
-  <h2 className="text-xl font-bold tracking-tight">We Play</h2>
-  <p className="text-[#999] mt-2">01 JAN 2019</p>
-</div>
-</div> */

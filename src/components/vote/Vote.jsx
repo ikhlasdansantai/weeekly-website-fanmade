@@ -76,6 +76,7 @@ const Vote = () => {
 
   return (
     <section id="vote" className="container py-20 px-[1.5rem]">
+      <Title title={"VOTE YOUR BIAS"} />
       <div className="cards mt-20 grid gap-y-20 sm:grid-cols-2 lg:grid-cols-4 gap-x-8">
         <VoteCard memberdatas={MemberDatas} handleClick={handleClick} />;
       </div>
@@ -84,50 +85,3 @@ const Vote = () => {
 };
 
 export default Vote;
-
-{
-  /* <section id="vote" className="container py-20 px-[1.5rem]">
-<Title title={"VOTE YOUR BIAS"} />
-<div className="cards mt-20 grid gap-y-20 sm:grid-cols-2 lg:grid-cols-4 gap-x-8">
-</div>
-</section> */
-}
-
-// let MemberDatas = [
-//   {
-//     src: soojin,
-//     name: "Lee Soo Jin",
-//     role: "Leader",
-//     vote: 0,
-//   },
-//   {
-//     src: monday,
-//     name: "Monday",
-//     role: "Vocal Leader",
-//     vote: 999,
-//   },
-//   {
-//     src: soeun,
-//     name: "Park Soeun",
-//     role: "Dance Leader",
-//     vote: 999,
-//   },
-//   {
-//     src: jaehee,
-//     name: "Lee Jae Hee",
-//     role: "Sub Vocalist",
-//     vote: 999,
-//   },
-//   {
-//     src: Jihan,
-//     name: "Jihan",
-//     role: "Lead Vocalist",
-//     vote: 999,
-//   },
-//   {
-//     src: zoa,
-//     name: "Zoa",
-//     role: "Visual",
-//     vote: 999,
-//   },
-// ];

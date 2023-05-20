@@ -31,7 +31,7 @@ const Schedule = () => {
   ];
   return (
     <div id="Schedule" className="container py-20 px-[1.5rem]">
-      <div className="container lg:w-[90rem] mx-auto mt-2">
+      <div className="container min-[1700px]:w-[90rem] mx-auto mt-2">
         <Title title={"SCHEDULE"} />
         <div className="schedule-cards grid lg:grid-cols-3 gap-14 mt-20">
           <ScheduleCard events={eventDatas} />

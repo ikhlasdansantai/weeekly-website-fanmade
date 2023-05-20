@@ -39,7 +39,7 @@ const Member = ({ MemberDatas, onMemberClick }) => {
         navigation={true}
         modules={[Autoplay]}
         loop
-        className="mySwiperflex bg-primary lg:w-[90rem] mx-auto overflow-hidden"
+        className="mySwiperflex bg-primary min-[1700px]:w-[90rem] mx-auto overflow-hidden"
       >
         {MemberDatas.map((memberData, index) => {
           return (
@@ -59,21 +59,3 @@ const Member = ({ MemberDatas, onMemberClick }) => {
 };
 
 export default Member;
-
-/* <SwiperSlide>
-<div className="member-card border-4 border-white">
-  <div className="member-img">
-    <img src={zoa} alt="zoa" className="block" />
-  </div>
-  <h2 className="member-name text-black text-center font-semibold bg-white">Zoa</h2>
-</div>
-</SwiperSlide> */
-
-/* <SwiperSlide>
-          <div className="member-card border-4 border-white">
-            <div className="member-img">
-              <img src={src} alt={`${name} pict`} className="block" />
-            </div>
-            <h2 className="member-name text-black text-center font-semibold bg-white">{name}</h2>
-          </div>
-        </SwiperSlide> */
