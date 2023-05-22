@@ -1,10 +1,9 @@
-// import Logo from "./assets/Weeekly_logo.png";
 import "./navbar.css";
 import Logo from "../../assets/Weeekly_logo.png";
 import { useState, useRef, useEffect } from "react";
 
 const Navbar = () => {
-  const ulMenus = ["Home", "About", "Projects", "Events", "Store"];
+  const ulMenus = ["Home", "About", "Albums", "Shows", "Events"];
 
   const [isChecked, setIsChecked] = useState(false);
   const myRef = useRef(null);
