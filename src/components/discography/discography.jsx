@@ -29,7 +29,7 @@ const Discography = () => {
     },
   ];
   return (
-    <div id="Discography" className="container py-20 px-[1.5rem]">
+    <div id="Albums" className="container py-20 px-[1.5rem]">
       <div className="container min-[1700px]:w-[90rem] mx-auto mt-2">
         <Title title={"DISCOGRAPHY"} />
         <div className="w-full cards mt-10 lg:mt-20 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:justify-between justify-stretch">
