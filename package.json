@@ -2,7 +2,7 @@
   "name": "weeekly-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http:/ikhlasdansantai.github.io/weeekly-website-fanmade",
+  "homepage": "http:/ikhlasdansantai.github.io/weeekly-website-fanmade-v2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

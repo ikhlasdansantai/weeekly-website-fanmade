@@ -1,7 +1,7 @@
 
 # Weeekly Website Fanmade ☕
 #### You can visit The Website here
-(under construction)
+https://ikhlasdansantai.github.io/weeekly-website-fanmade/
 
 ## 🚪 About / project background
 A side project during Ramadan, because I'm a fan of this idol group and they don't have an official website yet. So, I decided to create one as a learning and practice opportunity, although it's quite challenging since I'm still learning how to use ReactJS. That's all for now, sorry for the lengthy message :V
@@ -24,7 +24,7 @@ We strive to provide quality and accurate content, but we do not guarantee the a
 1. Fully Responsive
 - 100% Mobile Friendly
 2. Voting System
-- You can also select your favorite idol by clicking the Vote button located in the ### Vote Your Bias section. Each vote/click will add 1 vote to the selected idol.
+- You can also select your favorite idol by clicking the Vote button located in the #Vote Your Bias section. Each vote/click will add 1 vote to the selected idol.
 3. Dynamic Content 
 - You can click on the picture of each idol/member, which will display a brief profile about the selected idol/member.
 
@@ -34,4 +34,3 @@ The images used on this website are taken from various social media platforms, s
 ## Authors
 
 - [ikhlasdansantai](https://www.github.com/ikhlasdansantai)
-
