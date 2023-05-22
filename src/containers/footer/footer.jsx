@@ -48,7 +48,7 @@ const Footer = () => {
         <p className="text-white dark:text-neutral-400 mt-2">
           © 2023{" "}
           <span className="font-semibold hover:text-textDark" href={"https://github.com/ikhlasdansantai"}>
-            ikhlasdansantai
+            <a href="https://github.com/ikhlasdansantai">ikhlasdansantai</a>
           </span>
           . All Rights Reserved.
         </p>
