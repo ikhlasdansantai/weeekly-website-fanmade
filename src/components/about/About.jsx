@@ -3,7 +3,7 @@ import Title from "../TitleComp/Title";
 
 const About = () => {
   return (
-    <div id="About" className="container pt-10 px-[1.5rem]">
+    <div id="About" className="container py-20 px-[1.5rem]">
       <div className="container lg:w-[90rem] mx-auto mt-2">
         <Title title={"ABOUT US"} />
         <div className="about-contents flex flex-col lg:flex-row items-center gap-12 mt-10 lg:mt-20">
