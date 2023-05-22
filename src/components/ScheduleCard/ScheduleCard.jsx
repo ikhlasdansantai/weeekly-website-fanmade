@@ -11,12 +11,12 @@ const ScheduleCard = ({ events }) => {
               <h3 className="text-xl font-medium text-gray-900 mb-2">{event.event}</h3>
               <p className="text-gray-700 leading-snug">{event.desc}.</p>
               <div className="mt-4">
-                <p className="text-gray-700 font-semibold">Tanggal:</p>
-                <p className="text-gray-700">{event.date} - DD/MM/YYYY</p>
+                <p className="text-gray-700 font-semibold">Date:</p>
+                <p className="text-gray-700">{event.date}</p>
               </div>
               <div className="mt-4">
-                <p className="text-gray-700 font-semibold">Lokasi:</p>
-                <p className="text-gray-700">{event.location}, Alamat</p>
+                <p className="text-gray-700 font-semibold">Location:</p>
+                <p className="text-gray-700">{event.location}</p>
               </div>
               <div className="mt-6">
                 <a href="#" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold">
