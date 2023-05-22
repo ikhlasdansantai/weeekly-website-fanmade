@@ -1,6 +1,5 @@
 .header-bg {
   background-image: url(../../assets/headerBg.jpg);
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -8,18 +7,11 @@
   width: 100vw;
   overflow: hidden;
 }
+.header-content-img {
+  position: relative;
+  z-index: 12;
+}
 @media (min-width: 1700px) {
-  /* #temp {
-    display: none;
-  } */
-  .header-bg {
-    /* height: 0; */
-    /* background-attachment: fixed; */
-    /* display: none; */
-    /* height: 0vh; */
-    /* background-attachment: unset;
-  */
-  }
   .header-bg {
     height: inherit;
     padding: 5rem 0;
@@ -40,11 +32,5 @@
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -1000;
+  z-index: -1;
 }
-
-/* @media (min-width: 1700px) {
-  #temp {
-    min-height: 20rem;
-  }
-} */
