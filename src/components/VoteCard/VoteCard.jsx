@@ -13,13 +13,13 @@ const VoteCard = ({ memberdatas, handleClick }) => {
     <>
       {memberdatas.map((memberData, index) => {
         return (
-          <div className="card text-white" key={index}>
-            <figure>
-              <img src={memberData.src} alt="" className="block max-w-full bg-[#DC3D73]" />
+          <div className="card text-white " key={index}>
+            <figure className="flex">
+              <img src={memberData.src} alt="" className="block max-w-full bg-[#DC3D73] mx-auto object-fit" />
             </figure>
             <div className="card-header mt-4 mb-8 text-white">
-              <h2 className="text-3xl font-bold tracking-wider">{memberData.name}</h2>
-              <p className="font-semibold tracking-wide">{memberData.role}</p>
+              <h2 className="text-2xl font-semibold tracking-wider">{memberData.name}</h2>
+              <p className="text-base tracking-wide">{memberData.role}</p>
             </div>
             <div className="card-footer flex justify-between items-center">
               <div className="flex -space-x-4">
@@ -42,19 +42,3 @@ const VoteCard = ({ memberdatas, handleClick }) => {
 };
 
 export default VoteCard;
-{
-  /* <p>{memberData.name}</p>
-<p>{memberData.role}</p>
-<span>{memberData.vote}</span>
-<button
-  onClick={() => {
-    handleClick(memberData);
-  }}
-  className="text-white font-semibold border py-2 px-4"
-/>
-<p>{memberData.vote}</p> */
-}
-
-// <div>
-//
-// </div>

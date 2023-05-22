@@ -40,13 +40,13 @@ const Vote = () => {
     {
       src: Jihan,
       name: "Jihan",
-      role: "Lead Vocalist",
+      role: "Visual",
       vote: 10,
     },
     {
       src: zoa,
       name: "Zoa",
-      role: "Visual",
+      role: "Maknae",
       vote: 10,
     },
   ]);
@@ -77,7 +77,7 @@ const Vote = () => {
   return (
     <section id="vote" className="container py-20 px-[1.5rem]">
       <Title title={"VOTE YOUR BIAS"} />
-      <div className="cards mt-20 grid gap-y-20 sm:grid-cols-2 lg:grid-cols-4 gap-x-8">
+      <div className="cards mt-20 grid gap-y-20 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 ">
         <VoteCard memberdatas={MemberDatas} handleClick={handleClick} />;
       </div>
     </section>
