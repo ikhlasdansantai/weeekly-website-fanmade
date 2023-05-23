@@ -45,7 +45,7 @@ const Footer = () => {
 
       <div className="bg-[#999] p-4 text-center text-white">
         This website is created using ☕🤔💖🤠
-        <p className="text-white dark:text-neutral-400 mt-2">
+        <p className="text-white">
           © 2023{" "}
           <span className="font-semibold hover:text-textDark">
             <a href="https://github.com/ikhlasdansantai">ikhlasdansantai</a>
