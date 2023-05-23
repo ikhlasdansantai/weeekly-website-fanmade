@@ -52,7 +52,7 @@ const Footer = () => {
         This website is created using ☕🤔💖🤠
         <p className="text-white">
           © 2023{" "}
-          <span className="font-semibold hover:text-[#aaa]">
+          <span className="font-semibold hover:text-[#ddd]">
             <a href="https://github.com/ikhlasdansantai" aria-label="Follow Me On Github">
               ikhlasdansantai
             </a>
