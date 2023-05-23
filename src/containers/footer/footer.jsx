@@ -30,7 +30,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#fff] text-center text-white dark:bg-neutral-600 mb-[4.5rem] sm:mb-0">
+    <footer className="bg-[#fff] text-center text-white mb-[4.5rem] sm:mb-0">
       <div className="container pt-9">
         <div className="mb-9 flex justify-center gap-9">
           {links.map((link, index) => {
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#999] p-4 text-center text-white dark:bg-neutral-700 dark:text-neutral-200">
+      <div className="bg-[#999] p-4 text-center text-white">
         This website is created using ☕🤔💖🤠
         <p className="text-white dark:text-neutral-400 mt-2">
           © 2023{" "}
