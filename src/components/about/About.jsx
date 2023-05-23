@@ -21,6 +21,3 @@ const About = () => {
 };
 
 export default About;
-
-/* WEEEKLY (위클리) (sebelumnya dikenal sebagai PlayM Girls dan FAVE Girls) adalah grup perempuan asal Korea Selatan yang terdiri dari enam anggota di bawah IST Entertainment (sebelumnya Play M Entertainment), yang terdiri dari Lee
-Soojin, Monday, Park Soeun, Lee Jaehee, Jihan, dan Zoa. Mereka debut pada 30 Juni 2020 dengan album debut mereka "We Are", yang menampilkan lagu judul Tag Me (@Me). */
