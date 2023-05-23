@@ -53,8 +53,8 @@ const Vote = () => {
 
   const handleClick = async (member) => {
     const result = await Swal.fire({
-      title: `Anda memilih ${member.name}`,
-      text: "Konfirmasi pilihan anda!",
+      title: `You chose  ${member.name}`,
+      text: "Confirm your selection!",
       icon: "warning",
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
@@ -62,7 +62,7 @@ const Vote = () => {
       confirmButtonText: "Ya!",
     });
     if (result.isConfirmed) {
-      Swal.fire("Berhasil!", "Terimakasih sudah voting!", "success");
+      Swal.fire("Success!", "Thank you for voting!", "success");
       handleVote(member);
     }
   };
