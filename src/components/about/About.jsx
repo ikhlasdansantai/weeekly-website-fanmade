@@ -1,4 +1,4 @@
-import weeeklyPict from "../../assets/weeekly-photoshoot.png";
+import weeeklyPict from "../../assets/weeekly-photoshoot.webp";
 import Title from "../TitleComp/Title";
 
 const About = () => {

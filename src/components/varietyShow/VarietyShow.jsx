@@ -1,8 +1,8 @@
 import Title from "../TitleComp/Title";
 
-import weClear from "../../assets/weclear.png";
-import weClearEp2 from "../../assets/weclear-ep2.png";
-import pitPatShow from "../../assets/pit-a-pat.png";
+import weClear from "../../assets/weclear.webp";
+import weClearEp2 from "../../assets/weclear-ep2.webp";
+import pitPatShow from "../../assets/pit-a-pat.webp";
 
 const VarietyShow = () => {
   const varietyShow = [
