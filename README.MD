@@ -14,19 +14,20 @@ We strive to provide quality and accurate content, but we do not guarantee the a
 
 ## 🤖 Tech Stack
 
-**Client:** ReactJS, TailwindCSS,  SweetAlert2, IonIcons, diceBear
+**Client:** ReactJS, TailwindCSS,  SweetAlert2, Iconify, diceBear
 
-**Others:** Figma, Github, Netlify 
+**Others:** Figma, Github + gh-pages 
 
 
 ## Features
 
 1. Fully Responsive
 - 100% Mobile Friendly
-2. Voting System
-- You can also select your favorite idol by clicking the Vote button located in the #Vote Your Bias section. Each vote/click will add 1 vote to the selected idol.
-3. Dynamic Content 
+2. Dynamic Content 
 - You can click on the picture of each idol/member, which will display a brief profile about the selected idol/member.
+3. Voting System
+- You can also select your favorite idol by clicking the Vote button located in the #Vote Your Bias section. Each vote/click will add 1 vote to the selected idol.
+
 
 
 ## 🚨 IMAGE CREDITS
