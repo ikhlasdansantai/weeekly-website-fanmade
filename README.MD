@@ -14,7 +14,7 @@ We strive to provide quality and accurate content, but we do not guarantee the a
 
 ## 🤖 Tech Stack
 
-**Client:** ReactJS, TailwindCSS,  SweetAlert2, Iconify, diceBear
+**Client:** ReactJS, TailwindCSS,  SweetAlert2, Iconify, diceBear, swiperJS
 
 **Others:** Figma, Github + gh-pages 
 
