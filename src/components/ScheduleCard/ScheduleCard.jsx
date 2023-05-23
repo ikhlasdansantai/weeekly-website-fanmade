@@ -1,4 +1,14 @@
+import Swal from "sweetalert2";
+
 const ScheduleCard = ({ events }) => {
+  const handleClick = () => {
+    const result = Swal.fire({
+      icon: "error",
+      title: "Ticket Is Sold Out",
+      text: "Try Your Luck Next Year 😁",
+    });
+  };
+
   return (
     <>
       {events.map((event, index) => {
@@ -19,9 +29,9 @@ const ScheduleCard = ({ events }) => {
                 <p className="text-gray-700">{event.location}</p>
               </div>
               <div className="mt-6">
-                <a href="#" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg font-semibold">
+                <span onClick={handleClick} className="bg-blue-600 hover:bg-blue-950 text-white py-2 px-4 rounded-lg font-semibold">
                   Beli Tiket
-                </a>
+                </span>
               </div>
             </div>
           </div>
