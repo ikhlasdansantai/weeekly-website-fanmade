@@ -6,7 +6,7 @@ import Vote from "../../components/vote/Vote";
 
 const Main = () => {
   return (
-    <section id="main" className="bg-primary w-full overflow-hidden">
+    <section id="main" className="bg-primary w-full overflow-hidden -mt-2">
       <About />
       <Discography />
       <VarietyShow />
