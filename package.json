@@ -28,7 +28,7 @@
     "serve": "vite preview",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "vite build && gh-pages -d dist",
+    "deploy": "vite build && gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
