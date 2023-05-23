@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/weeekly-website-fanmade/static/css/main.848cfc86.css",
-    "main.js": "/weeekly-website-fanmade/static/js/main.c1c3c93c.js",
+    "main.css": "/weeekly-website-fanmade/static/css/main.e6e8e1cf.css",
+    "main.js": "/weeekly-website-fanmade/static/js/main.d6e6cd39.js",
     "static/media/Krossevent.webp": "/weeekly-website-fanmade/static/media/Krossevent.eb3908e386edd2d82cdc.webp",
-    "static/media/Soeun.png": "/weeekly-website-fanmade/static/media/Soeun.586ff921681943550545.png",
-    "static/media/Monday.png": "/weeekly-website-fanmade/static/media/Monday.00e1fcbc7d12642ecc30.png",
-    "static/media/Soojin.png": "/weeekly-website-fanmade/static/media/Soojin.97dbfe2bace859358c50.png",
-    "static/media/Jihan.png": "/weeekly-website-fanmade/static/media/Jihan.853742282f87f44afc64.png",
-    "static/media/Zoa.png": "/weeekly-website-fanmade/static/media/Zoa.5116f6c249385fc1edce.png",
     "static/media/KFLEX.webp": "/weeekly-website-fanmade/static/media/KFLEX.bebaaa4716ee8e7f5e6b.webp",
-    "static/media/Jaehee.png": "/weeekly-website-fanmade/static/media/Jaehee.31dbfea2e205d1a5f9a3.png",
-    "static/media/pit-a-pat.webp": "/weeekly-website-fanmade/static/media/pit-a-pat.1d571cd36a84402febce.webp",
-    "static/media/weclear.webp": "/weeekly-website-fanmade/static/media/weclear.86a80df081c421fd7a20.webp",
-    "static/media/weclear-ep2.webp": "/weeekly-website-fanmade/static/media/weclear-ep2.31ce7baa874b481247ac.webp",
     "static/media/contour.webp": "/weeekly-website-fanmade/static/media/contour.a863177042a3050a0ebd.webp",
+    "static/media/pit-a-pat.webp": "/weeekly-website-fanmade/static/media/pit-a-pat.6ece19418fd1da4ad041.webp",
+    "static/media/weclear.webp": "/weeekly-website-fanmade/static/media/weclear.114019686ca6f3564c46.webp",
     "static/media/headerBg.webp": "/weeekly-website-fanmade/static/media/headerBg.32701371f63d71bd0aa0.webp",
+    "static/media/Soeun.png": "/weeekly-website-fanmade/static/media/Soeun.f2411d75d8e3cb72e765.png",
+    "static/media/weclear-ep2.webp": "/weeekly-website-fanmade/static/media/weclear-ep2.5077285dd4074298ec92.webp",
+    "static/media/Monday.png": "/weeekly-website-fanmade/static/media/Monday.cf548d4b186b7a0ae779.png",
+    "static/media/Zoa.png": "/weeekly-website-fanmade/static/media/Zoa.02a6d8a326656d7c1eef.png",
+    "static/media/Jaehee.png": "/weeekly-website-fanmade/static/media/Jaehee.59607858b9d65ff8146e.png",
+    "static/media/Jihan.png": "/weeekly-website-fanmade/static/media/Jihan.77b4cc0cbd4788964d10.png",
+    "static/media/Soojin.png": "/weeekly-website-fanmade/static/media/Soojin.5bf2375bc5dee1863214.png",
     "static/media/weeekly-photoshoot.webp": "/weeekly-website-fanmade/static/media/weeekly-photoshoot.ee5542f69b8288f9790b.webp",
     "static/media/we-play.webp": "/weeekly-website-fanmade/static/media/we-play.87d4d414426ca3e312dd.webp",
     "static/media/Weeekly_wecan_2020.webp": "/weeekly-website-fanmade/static/media/Weeekly_wecan_2020.eb4498e609461da0eef6.webp",
     "static/media/Weeekly_-_Play_Game_-_Awake.webp": "/weeekly-website-fanmade/static/media/Weeekly_-_Play_Game_-_Awake.17fe2526188b8a1ba64f.webp",
     "static/media/Weeekly_logo.png": "/weeekly-website-fanmade/static/media/Weeekly_logo.b590d4051846f8f8ea15.png",
     "index.html": "/weeekly-website-fanmade/index.html",
-    "main.848cfc86.css.map": "/weeekly-website-fanmade/static/css/main.848cfc86.css.map",
-    "main.c1c3c93c.js.map": "/weeekly-website-fanmade/static/js/main.c1c3c93c.js.map"
+    "main.e6e8e1cf.css.map": "/weeekly-website-fanmade/static/css/main.e6e8e1cf.css.map",
+    "main.d6e6cd39.js.map": "/weeekly-website-fanmade/static/js/main.d6e6cd39.js.map"
   },
   "entrypoints": [
-    "static/css/main.848cfc86.css",
-    "static/js/main.c1c3c93c.js"
+    "static/css/main.e6e8e1cf.css",
+    "static/js/main.d6e6cd39.js"
   ]
 }
