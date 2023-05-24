@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig(() => {
   return {
+    base: "/weekly-website-fanmade/",
     build: {
       outDir: "dist",
     },
