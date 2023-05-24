@@ -62,12 +62,12 @@ const Navbar = () => {
         </ul>
 
         <div className="mobile md:hidden">
-          <div className="fries-menu flex flex-col justify-between w-[30px] h-[25px] relative">
+          <label className="fries-menu flex flex-col justify-between w-[30px] h-[25px] relative">
             <input id="checkbox" type="checkbox" className="scale-125 opacity-0 absolute top-0 bottom-0 left-0 right-0 z-10" onChange={(e) => handleChange(e)} />
             <span className="block w-full h-[3px] bg-black rounded-sm"></span>
             <span className="block w-[65%] ml-auto h-[3px] bg-black rounded-sm"></span>
             <span className="block w-full h-[3px] bg-black rounded-sm"></span>
-          </div>
+          </label>
         </div>
       </section>
       <ul id="nav-mobile" ref={myRef} className={(isChecked, "bg-white")}>
