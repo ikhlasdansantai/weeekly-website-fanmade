@@ -1,8 +1,8 @@
 import Title from "../TitleComp/Title";
 
-import KrossEvent from "../../assets/Krossevent.png";
-import Kflex from "../../assets/KFLEX.jpg";
-import contour from "../../assets/contour.jpg";
+import KrossEvent from "../../assets/Krossevent.webp";
+import Kflex from "../../assets/KFLEX.webp";
+import contour from "../../assets/contour.webp";
 import ScheduleCard from "../ScheduleCard/ScheduleCard";
 
 const Schedule = () => {

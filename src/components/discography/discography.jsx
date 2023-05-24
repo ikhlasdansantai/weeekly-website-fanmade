@@ -1,8 +1,7 @@
 import Title from "../TitleComp/Title";
-import wePlayAlbum from "../../assets/we-play.jpg";
-import playGameAlbum from "../../assets/Weeekly_-_Play_Game_-_Awake.png";
-import unknownAlbum from "../../assets/unknown.jpg";
-import wecanAlbum from "../../assets/Weeekly_wecan_2020.jpg";
+import wePlayAlbum from "../../assets/we-play.webp";
+import playGameAlbum from "../../assets/Weeekly_-_Play_Game_-_Awake.webp";
+import wecanAlbum from "../../assets/Weeekly_wecan_2020.webp";
 import AlbumCard from "../albumCard/AlbumCard";
 
 const Discography = () => {
