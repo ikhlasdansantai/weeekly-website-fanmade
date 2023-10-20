@@ -41,6 +41,8 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    setScrollClass({ ...scrollClass, textClass: "text-white" });
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
