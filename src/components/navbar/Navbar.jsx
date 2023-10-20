@@ -41,6 +41,8 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+    setScrollClass({ ...scrollClass, textClass: "text-white" });
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -51,7 +53,7 @@ const Navbar = () => {
       <section className="nav-wrappers flex justify-between items-center mx-auto min-[1700px]:w-[90rem] relative z-50">
         <img src={Logo} alt="weeekly Logo" className="block w-[7rem]" />
 
-        <ul className="desktop hidden justify-between items-center ml-auto md:flex w-[22rem] ">
+        <ul className="desktop hidden justify-between items-center ml-auto sm:flex w-[22rem] ">
           {ulMenus.map((ulMenu, index) => (
             <li key={index}>
               <a href={`#${ulMenu}`} className={`font-semibold ${scrollClass.textClass}`}>
@@ -61,7 +63,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="mobile md:hidden">
+        <div className="mobile">
           <label className="fries-menu flex flex-col justify-between w-[30px] h-[25px] relative">
             <input id="checkbox" type="checkbox" className="scale-125 opacity-0 absolute top-0 bottom-0 left-0 right-0 z-10" onChange={(e) => handleChange(e)} />
             <span className="block w-full h-[3px] bg-black rounded-sm"></span>
