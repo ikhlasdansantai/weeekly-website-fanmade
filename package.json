@@ -1,8 +1,7 @@
 {
   "name": "weeekly-website",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "private": true,
-  "homepage": "https://ikhlasdansantai.github.io/weeekly-website-fanmade",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +15,7 @@
     "react-icons": "^4.7.1",
     "react-id-swiper": "^4.0.0",
     "react-ionicons": "^4.2.0",
+    "react-router-dom": "^6.17.0",
     "react-scroll": "^1.8.9",
     "sweetalert2": "^11.7.3",
     "sweetalert2-react-content": "^5.0.7",
