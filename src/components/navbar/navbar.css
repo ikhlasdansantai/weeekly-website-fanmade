@@ -51,13 +51,16 @@
 }
 
 @media (max-width: 640px) {
+  nav {
+    background-color: white;
+  }
   .desktop {
     display: none !important;
   }
 }
 
-@media (min-width: 640px) {
-  :is(.mobile, #nav-mobile) {
+@media (min-width: 641px) {
+  :is(.mobile) {
     display: none;
   }
 }
